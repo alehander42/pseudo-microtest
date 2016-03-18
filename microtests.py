@@ -282,7 +282,7 @@ def foo(x: int):
 foo(42)
 
 # [func.intint_void]
-def foo(x: int, y: int) -> int:
+def foo(x: int, y: int):
   if x * y == 42:
     print('ok')
 foo(6, 7)
